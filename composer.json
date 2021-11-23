@@ -17,7 +17,7 @@
 	"require": {
 		"php": "^7.4|^8.0",
 		"illuminate/contracts": "^5.8|^8.0",
-		"spatie/laravel-package-tools": "^1.1",
+		"spatie/laravel-package-tools": "dev-main",
 		"guzzlehttp/guzzle": "^7.2"
 	},
 	"require-dev": {
@@ -58,5 +58,11 @@
 		}
 	},
 	"minimum-stability": "dev",
-	"prefer-stable": true
+	"prefer-stable": true,
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/NicolasReibnitz/laravel-package-tools"
+		}
+	]
 }
